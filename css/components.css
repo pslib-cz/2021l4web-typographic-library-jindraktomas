@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    margin: 0 auto;
+    background-color: #DEF2F1;
+}
+.mainpage_header {
+    background-color: #3AAFA9;
+    height: 100px;
+}
+.mainpage_header h1 {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+.container {
+    background-color: #DEF2F1;
+    margin: 20px;
+}
+.container .element {
+    padding-left: 50px;
+    margin: 0;
+}
+.example_heading {
+    padding-left: 30px;
+}
+.example_heading h1 {
+    margin: 0 0 1em 0;
+}
+.example_heading h1, h2, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.example_heading_type {
+    font-size: 16px;
+    font-weight: 200;
+}
