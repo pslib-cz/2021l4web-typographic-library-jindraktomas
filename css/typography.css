@@ -9,23 +9,64 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
 }
 h1 {
-    font-size: 36px;
+    font-size: 40px;
 }
 h2 {
-    font-size: 26px;
+    font-size: 32px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 h4 {
-    font-size: 16px;
+    font-size: 18px;
 }
 h5 {
-    font-size: 14px;
+    font-size: 16px;
 }
 h6 {
-    font-size: 12px;
+    font-size: 14px;
+}
+p {
+    font-size: 16px;
 }
 .container h2 {
     font-size: 30px;
+}
+.navbar__btn {
+    font-size: 16px;
+    color: white;
+}
+.navbar h1 {
+    font-size: 34px;
+    color: white;
+}
+.dscript {
+    font-size: 18px;
+    font-weight: 600;
+}
+.word {
+    font-size: 18px;
+}
+.example {
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition: 0.8s;
+}
+.btn__transparent {
+    color: #2a2a2b;
+}
+.btn__invisible {
+    color: #cecece;
+}
+.btn__desc {
+    font-size: 18px;
 }

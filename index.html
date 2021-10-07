@@ -5,32 +5,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML&CSS Gallery</title>
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/typography.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">    
 </head>
-
 <body>
     <header class="mainpage_header">
-        <h1>Simple Typography Library</h1>
+        <nav class="navbar">
+            <h1>Simple HTML/CSS Library</h1>
+            <ul class="navbar__menu">
+                <li><a class="navbar__btn" href="#headings">Headings</a></li>
+                <li><a class="navbar__btn" href="#texttypes">Text</a></li>
+                <li><a class="navbar__btn" href="#buttons">Buttons</a></li>
+                <li><a class="navbar__btn" href="#gallery">Gallery</a></li>
+                <li><a class="navbar__btn" href="">Další věci</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <div class="bg"></div>
         <section class="container">
-            <h2 class="container element">Types of Headings:</h2>
-            <div class="container example_heading">
-                <h1>Heading <code>&lt;h1&gt;</code></h1>
-                <h2>Heading <code>&lt;h2&gt;</code></h2>
-                <h3>Heading <code>&lt;h3&gt;</code></h3>
-                <h4>Heading <code>&lt;h4&gt;</code></h4>
-                <h5>Heading <code>&lt;h5&gt;</code></h5>
-                <h6>Heading <code>&lt;h6&gt;</code></h6>
+            <h2 id="headings">Types of Headings:</h2>
+            <div class="describ">
+                <p>Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b> and ends with
+                    <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings <code>&lt;h1&gt;</code> - 40px,
+                    <code>&lt;h2&gt;</code> - 32px, <code>&lt;h3&gt;</code> - 25px, <code>&lt;h4&gt;</code> - 18px,
+                    <code>&lt;h5&gt;</code> - 16px, Heading <code>&lt;h6&gt;</code> - 12px.
+                </p>
+            </div>
+            <div class="headings">
+                <h1 class="modifer">Heading <code>&lt;h1&gt;</code></h1>
+                <h2 class="modifer">Heading <code>&lt;h2&gt;</code></h2>
+                <h3 class="modifer">Heading <code>&lt;h3&gt;</code></h3>
+                <h4 class="modifer">Heading <code>&lt;h4&gt;</code></h4>
+                <h5 class="modifer">Heading <code>&lt;h5&gt;</code></h5>
+                <h6 class="modifer">Heading <code>&lt;h6&gt;</code></h6>
             </div>
         </section>
         <section class="container">
-            <h2></h2>
+            <h2 id="texttypes">Text types</h2>
+            <h3>Block of text</h3>
+            <div class="small">
+                <div class="small__block">
+                <span class="dscript">Text-align: left;</span>
+                <p class="blck1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo.</p>
+            </div>
+            <div class="small__block">
+                <span class="dscript">Text-align: justify;</span>
+                <p class="blck2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo.</p>
+            </div>
+            <div class="small__block">
+                <span class="dscript">Text-align: right;</span>
+                <p class="blck3"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo.</p>
+            </div>
+            </div>
+            <div class="big">
+                <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+                    Saepe, quo.</p>
+            </div>
+            <h3>Highlighted words in the text</h3>
+            <ul>
+                <li class="word">This <b>word</b> is <b>bold</b> <span class="example"><code>&lt;b&gt;</code></span></li>
+                <li class="word">This <u>word</u> is <u>underlined</u> <span class="example"><code>&lt;u&gt;</code></span></li>
+                <li class="word">This <mark>word</mark> is <mark>highlighted</mark> <span class="example"><code>&lt;mark&gt;</code></span></li>
+                <li class="word">This <small>word</small> is <small>small</small> <span class="example"><code>&lt;small&gt;</code></span></li>
+                <li class="word">This <i>word</i> is <i>italic</i> <span class="example"><code>&lt;i&gt;</code></span></li>
+                <li class="word">And on This <a href="#">word</a> you can click <span class="example"><code>&lt;a href=""&gt;</code></span></li>
+            </ul>
         </section>
+        <section class="container">
+            <h2 id="buttons">Buttons</h2>
+            <div class="btn__gallery">
+            <div>
+               <a class="btn btn__square" href="#">Button</a>
+               <span class="btn__desc">Square shape</span>
+            </div>
+            <div>
+                <a class="btn btn__curved" href="#">Button</a>
+                <span class="btn__desc">Curved</span>
+             </div>
+             <div>
+                <a class="btn btn__transparent" href="#">Button</a>
+                <span class="btn__desc">Transparent</span>
+             </div>
+             <div>
+                <a class="btn btn__invisible" href="#">Button</a>
+                <span class="btn__desc">Invisible</span>
+             </div>    
+            </div>
+        </section>
+        <section class="container">
+            <h2 id="gallery">Gallery</h2>
+        </section>
+        <div class="bsGallery">
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="">
+                </a>
+            </figure>
+            </div>
     </main>
 </body>
 
