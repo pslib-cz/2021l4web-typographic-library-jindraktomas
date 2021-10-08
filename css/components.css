@@ -155,5 +155,21 @@ body {
 .btn__desc {
     margin: 5px auto;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery a {
+    display: block;
+    width: 300px;
+}
+.gallery img {
+    height: 100%;
+    width: 100%;
+}
+.gallery div {
+    position: absolute;
+}
+
 
 
