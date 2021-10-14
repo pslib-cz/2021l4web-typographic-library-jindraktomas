@@ -32,7 +32,7 @@ p {
 .container h2 {
     font-size: 30px;
 }
-.navbar__btn {
+.navbar--btn {
     font-size: 16px;
     color: white;
 }
@@ -61,12 +61,26 @@ p {
     background-color: white;
     transition: 0.8s;
 }
-.btn__transparent {
+.btn--transparent {
     color: #2a2a2b;
 }
-.btn__invisible {
+.btn--invisible {
     color: #cecece;
 }
-.btn__desc {
+.caption {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0);
+}
+figure a:hover .caption {
+    color: white;
+    transition: 0.8s;
+}
+figure a .caption {
+    transition: 0.8s;
+}
+.list {
     font-size: 18px;
+}
+.describtion {
+    font-size: 20px;
 }

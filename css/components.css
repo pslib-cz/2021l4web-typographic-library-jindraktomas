@@ -25,18 +25,21 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
-.navbar__menu {
+
+.navbar--menu {
     display: flex;
 }
-.navbar__menu li {
+
+.navbar--menu li {
     list-style: none;
 }
-.navbar__btn {
+
+.navbar--btn {
     margin-left: 30px;
     text-decoration: none;
 }
 
-.navbar__btn:hover {
+.navbar--btn:hover {
     color: gray;
     transition: 0.8s;
 }
@@ -119,57 +122,122 @@ body {
     margin-left: 10px;
 }
 
-.btn__gallery {
+.con {
     display: flex;
     justify-content: space-between;
 }
+
 .btn {
     display: block;
     background-color: #2a2a2b;
     width: 100px;
-    height: 30px;
-    padding: 0.5em;
+    height: 40px;
+    padding: 0.4em;
     text-decoration: none;
     text-align: center;
     transition: 2s;
 }
-.btn__square:hover {
+
+.btn--square:hover {
     background-color: white;
     transition: 2s;
 }
-.btn__curved {
+
+.btn--curved {
     border-radius: 20px;
 }
-.btn__transparent {
+
+.btn--transparent {
     background-color: rgba(255, 255, 0, 0);
     border: 1px solid #2a2a2b;
     border-radius: 20px;
 }
-.btn__invisible {
+
+.btn--invisible {
     background-color: rgba(0, 0, 0, 0);
 }
-.btn__gallery div {
-    display: flex;
-    flex-direction: column;
-}
-.btn__desc {
-    margin: 5px auto;
-}
+
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
-}
-.gallery a {
-    display: block;
-    width: 300px;
-}
-.gallery img {
-    height: 100%;
-    width: 100%;
-}
-.gallery div {
-    position: absolute;
+    justify-content: space-between;
 }
 
+ figure {
+    display: block;
+    overflow: hidden;
+    width: fit-content;
+    margin: 0;
+}
+
+figure a {
+    display: block;
+    overflow: hidden;
+    width: 430px;
+    position: relative;
+    height: 250px;
+    margin-bottom: 20px;
+}
+figure a .caption {
+    position: absolute;
+    opacity: 0;
+    transition: 0.8s;
+    bottom: 0;
+    background-color: #2a2a2b;
+    width: 100%;
+    padding: 5px;
+}
+figure a:hover .caption {
+    transition: 0.8s;
+    display: block;
+    opacity: 1;
+}
+
+figure a img {
+    height: 100%;
+    width: 100%;
+    transition: 0.8s;
+}
+
+figure a:hover img {
+    transform: scale(1.07);
+    transition: 0.8s;
+}
+
+.single {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+.single a {
+    width: 650px;
+    height: 350px;
+}
+.single a .caption {
+    position: absolute;
+    opacity: 0;
+    transition: 0.8s;
+    bottom: 0;
+    background-color: #2a2a2b;
+    width: 100%;
+}
+.single a:hover .caption {
+    transition: 0.8s;
+    display: block;
+    opacity: 1;
+}
+
+.single a img {
+    height: 100%;
+    width: 100%;
+    transition: 0.8s;
+}
+
+.single a:hover img {
+    transform: scale(1.07);
+    transition: 0.8s;
+}
 
 

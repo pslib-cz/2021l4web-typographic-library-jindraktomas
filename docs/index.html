@@ -8,18 +8,20 @@
     <title>HTML&CSS Gallery</title>
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/typography.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="mainpage_header">
         <nav class="navbar">
             <h1>Simple HTML/CSS Library</h1>
-            <ul class="navbar__menu">
-                <li><a class="navbar__btn" href="#headings">Headings</a></li>
-                <li><a class="navbar__btn" href="#texttypes">Text</a></li>
-                <li><a class="navbar__btn" href="#buttons">Buttons</a></li>
-                <li><a class="navbar__btn" href="#gallery">Gallery</a></li>
-                <li><a class="navbar__btn" href="">Další věci</a></li>
+            <ul class="navbar--menu">
+                <li><a class="navbar--btn" href="#headings">Headings</a></li>
+                <li><a class="navbar--btn" href="#texttypes">Text</a></li>
+                <li><a class="navbar--btn" href="#buttons">Buttons</a></li>
+                <li><a class="navbar--btn" href="#gallery">Gallery</a></li>
+                <li><a class="navbar--btn" href="#lists">Lists</a></li>
             </ul>
         </nav>
     </header>
@@ -28,11 +30,17 @@
         <section class="container">
             <h2 id="headings">Types of Headings:</h2>
             <div class="describ">
-                <p>Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b> and ends with
-                    <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings <code>&lt;h1&gt;</code> - 40px,
-                    <code>&lt;h2&gt;</code> - 32px, <code>&lt;h3&gt;</code> - 25px, <code>&lt;h4&gt;</code> - 18px,
-                    <code>&lt;h5&gt;</code> - 16px, Heading <code>&lt;h6&gt;</code> - 12px.
+                <p class="describtion">Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b> and ends with
+                    <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings:
                 </p>
+                <ul class="list">
+                    <li><code>&lt;h1&gt;</code> - 40px</li>
+                    <li><code>&lt;h2&gt;</code> - 32px</li>
+                    <li><code>&lt;h3&gt;</code> - 25px</li>
+                    <li><code>&lt;h4&gt;</code> - 18px</li>
+                    <li><code>&lt;h5&gt;</code> - 16px</li>
+                    <li><code>&lt;h6&gt;</code> - 12px</li>
+                </ul>
             </div>
             <div class="headings">
                 <h1 class="modifer">Heading <code>&lt;h1&gt;</code></h1>
@@ -48,133 +56,204 @@
             <h3>Block of text</h3>
             <div class="small">
                 <div class="small__block">
-                <span class="dscript">Text-align: left;</span>
-                <p class="blck1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo.</p>
-            </div>
-            <div class="small__block">
-                <span class="dscript">Text-align: justify;</span>
-                <p class="blck2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo.</p>
-            </div>
-            <div class="small__block">
-                <span class="dscript">Text-align: right;</span>
-                <p class="blck3"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo.</p>
-            </div>
+                    <span class="dscript">Text-align: left;</span>
+                    <p class="blck1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                    </p>
+                </div>
+                <div class="small__block">
+                    <span class="dscript">Text-align: justify;</span>
+                    <p class="blck2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                    </p>
+                </div>
+                <div class="small__block">
+                    <span class="dscript">Text-align: right;</span>
+                    <p class="blck3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                        consectetur
+                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
+                        quam?
+                    </p>
+                </div>
             </div>
             <div class="big">
-                <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Tempora, culpa sint. Eum consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                    consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                    consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                    consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
+                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
+                    consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo.</p>
+                </p>
             </div>
-            <h3>Highlighted words in the text</h3>
+            <h3>Highlighted words in text</h3>
             <ul>
-                <li class="word">This <b>word</b> is <b>bold</b> <span class="example"><code>&lt;b&gt;</code></span></li>
-                <li class="word">This <u>word</u> is <u>underlined</u> <span class="example"><code>&lt;u&gt;</code></span></li>
-                <li class="word">This <mark>word</mark> is <mark>highlighted</mark> <span class="example"><code>&lt;mark&gt;</code></span></li>
-                <li class="word">This <small>word</small> is <small>small</small> <span class="example"><code>&lt;small&gt;</code></span></li>
-                <li class="word">This <i>word</i> is <i>italic</i> <span class="example"><code>&lt;i&gt;</code></span></li>
-                <li class="word">And on This <a href="#">word</a> you can click <span class="example"><code>&lt;a href=""&gt;</code></span></li>
+                <li class="word">This <b>word</b> is <b>bold</b> <span class="example"><code>&lt;b&gt;</code></span>
+                </li>
+                <li class="word">This <u>word</u> is <u>underlined</u> <span
+                        class="example"><code>&lt;u&gt;</code></span></li>
+                <li class="word">This <mark>word</mark> is <mark>highlighted</mark> <span
+                        class="example"><code>&lt;mark&gt;</code></span></li>
+                <li class="word">This <small>word</small> is <small>small</small> <span
+                        class="example"><code>&lt;small&gt;</code></span></li>
+                <li class="word">This <i>word</i> is <i>italic</i> <span class="example"><code>&lt;i&gt;</code></span>
+                </li>
+                <li class="word">And on This <a href="#">word</a> you can click <span class="example"><code>&lt;a
+                            href=""&gt;</code></span></li>
             </ul>
         </section>
         <section class="container">
             <h2 id="buttons">Buttons</h2>
-            <div class="btn__gallery">
-            <div>
-               <a class="btn btn__square" href="#">Button</a>
-               <span class="btn__desc">Square shape</span>
-            </div>
-            <div>
-                <a class="btn btn__curved" href="#">Button</a>
-                <span class="btn__desc">Curved</span>
-             </div>
-             <div>
-                <a class="btn btn__transparent" href="#">Button</a>
-                <span class="btn__desc">Transparent</span>
-             </div>
-             <div>
-                <a class="btn btn__invisible" href="#">Button</a>
-                <span class="btn__desc">Invisible</span>
-             </div>    
+            <div class="con">
+                <button class="btn btn--square">
+                    Button
+                </button>
+                <button class="btn btn--curved">
+                    Button
+                </button>
+                <button class="btn btn--transparent">
+                    Button
+                </button>
+                <button class="btn btn--invisible">
+                    Button
+                </button>
             </div>
         </section>
         <section class="container">
             <h2 id="gallery">Gallery</h2>
-        </section>
-        <div class="gallery">
-            <figure>
-                <a href="">
-                    <img src="../img/onas.jpg" alt="člověk s kytarou">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
-            <figure>
-                <a href="">
-                    <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
-            <figure>
-                <a href="">
-                    <img src="../img/onas.jpg" alt="člověk s kytarou">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
-            <figure>
-                <a href="">
-                    <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
-            <figure>
-                <a href="">
-                    <img src="../img/onas.jpg" alt="člověk s kytarou">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
-            <figure>
-                <a href="">
-                    <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
-                    <div class="caption">Popisek</div>
-                </a>
-            </figure>
+            <div>
+                <p class="describtion">This is type of Image gallery with captions on pictures. Using flex.</p>
             </div>
+            <div class="gallery">
+                <figure>
+                    <a href="">
+                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="">
+                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="">
+                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="">
+                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="">
+                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="">
+                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <div class="caption">Caption</div>
+                    </a>
+                </figure>
+            </div>
+            <figure class="single">
+                <a href="">
+                    <img src="../img/code-g8d28e2f1e_1920.jpg" alt="kalendář">
+                    <div class="caption">Single Image</div>
+                </a>
+            </figure>
+        </section>
+        <section class="container">
+            <h2 id="lists">Lists</h2>
+            <p class="describtion">We use the <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> tags to create lists</p>
+            <ul class="list">
+                <li>Fender Guitars</li>
+                <li>Lowden guitars</li>
+                <ul>
+                    <li>The Original Series</li>
+                    <li>The 35 Series</li>
+                    <li>The 50 Series</li>
+                    <li>Sheeran by Lowden</li>
+                    <ul>
+                        <li>W Series</li>
+                        <ul>
+                            <li>The WO1</li>
+                            <li>The WO2</li>
+                            <li>The WO3</li>
+                            <li>The WO4</li>
+                        </ul>
+                        <li>S Series</li>
+                        <ul>
+                            <li>The SO1</li>
+                            <li>The SO2</li>
+                            <li>The SO3</li>
+                            <li>The SO4</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <li>Gison guitars</li>
+                <li>Epiphone</li>
+                <li>Walden</li>
+                <li>Cort</li>
+            </ul>
+            <p class="describtion">This is the same but with numbers. We use <b>&lt;ol&gt;</b> and <b>&lt;li&gt;</b></p>
+            <ol class="list">
+                <li>The Original Series</li>
+                <li>The 35 Series</li>
+                <li>The 50 Series</li>
+                <li>Sheeran by Lowden</li>
+                <ol>
+                    <li>W Series</li>
+                    <ol>
+                        <li>The WO1</li>
+                        <li>The WO2</li>
+                        <li>The WO3</li>
+                        <li>The WO4</li>
+                    </ol>
+                    <li>S Series</li>
+                    <ol>
+                        <li>The SO1</li>
+                        <li>The SO2</li>
+                        <li>The SO3</li>
+                        <li>The SO4</li>
+                    </ol>
+                </ol>
+                <li>Gison guitars</li>
+                <li>Epiphone</li>
+                <li>Walden</li>
+                <li>Cort</li>
+            </ol>
+        </section>
     </main>
 </body>
 
