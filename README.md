@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *First Lastname*
 ## Demo site
-Link to **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-jindraktomas/)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-jindraktomas/index.html)** site for preview.
 ## Dependecies
 ...
 ## Implementation
