@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML&CSS Gallery</title>
-    <link rel="stylesheet" href="../css/components.css">
-    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/typography.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
 </head>
@@ -22,6 +22,7 @@
                 <li><a class="navbar--btn" href="#buttons">Buttons</a></li>
                 <li><a class="navbar--btn" href="#gallery">Gallery</a></li>
                 <li><a class="navbar--btn" href="#lists">Lists</a></li>
+                <li><a class="navbar--btn" href="#blockq">Blockquotes</a></li>
             </ul>
         </nav>
     </header>
@@ -151,51 +152,53 @@
             <div class="gallery">
                 <figure>
                     <a href="">
-                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <img src="./img/onas.jpg" alt="člověk s kytarou">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
-                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
-                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <img src="./img/onas.jpg" alt="člověk s kytarou">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
-                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
-                        <img src="../img/onas.jpg" alt="člověk s kytarou">
+                        <img src="./img/onas.jpg" alt="člověk s kytarou">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
-                        <img src="../img/vybaveni.jpg" alt="hudební mixážní pult">
+                        <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
                         <div class="caption">Caption</div>
                     </a>
                 </figure>
             </div>
             <figure class="single">
                 <a href="">
-                    <img src="../img/code-g8d28e2f1e_1920.jpg" alt="kalendář">
+                    <img src="./img/code-g8d28e2f1e_1920.jpg" alt="kalendář">
                     <div class="caption">Single Image</div>
                 </a>
             </figure>
         </section>
         <section class="container">
             <h2 id="lists">Lists</h2>
-            <p class="describtion">We use the <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> tags to create lists</p>
+            <div class="box">
+                <div>
+                <p class="describtion">We use the <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> tags to create lists</p>
             <ul class="list">
                 <li>Fender Guitars</li>
                 <li>Lowden guitars</li>
@@ -226,7 +229,9 @@
                 <li>Walden</li>
                 <li>Cort</li>
             </ul>
-            <p class="describtion">This is the same but with numbers. We use <b>&lt;ol&gt;</b> and <b>&lt;li&gt;</b></p>
+            </div>
+            <div>
+                <p class="describtion">This is the same but with numbers. We use <b>&lt;ol&gt;</b> and <b>&lt;li&gt;</b></p>
             <ol class="list">
                 <li>The Original Series</li>
                 <li>The 35 Series</li>
@@ -248,13 +253,38 @@
                         <li>The SO4</li>
                     </ol>
                 </ol>
-                <li>Gison guitars</li>
+                <li>Gibson guitars</li>
                 <li>Epiphone</li>
                 <li>Walden</li>
                 <li>Cort</li>
             </ol>
+            </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 id="blockq">Blockquote</h2>
+            <figure class="quote">
+                <blockquote>
+                    <p>"The only thing we have to fear is fear itself."</p>
+                    <figcaption>-Franklin D. Roosevelt</figcaption>
+                </blockquote>
+            </figure>
+            <figure class="quote">
+                <blockquote>
+                    <p>"I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character."</p>
+                    <figcaption>-Martin Luther King</figcaption>
+                </blockquote>
+            </figure>
         </section>
     </main>
+    <footer>
+        <div>
+            <a href="mailto:tomjind018@pslib.cz">Tomáš Jindrák 2021</a>
+            <a href="https://www.instagram.com/tjindrak/">
+                <img src="./img/LOGO_white.png">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
