@@ -31,7 +31,8 @@
         <section class="container">
             <h2 id="headings">Types of Headings:</h2>
             <div class="describ">
-                <p class="describtion">Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b> and ends with
+                <p class="describtion">Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b>
+                    and ends with
                     <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings:
                 </p>
                 <ul class="list">
@@ -56,7 +57,7 @@
             <h2 id="texttypes">Text types</h2>
             <h3>Block of text</h3>
             <div class="small">
-                <div class="small__block">
+                <div class="small--block">
                     <span class="dscript">Text-align: left;</span>
                     <p class="blck1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
                         consectetur
@@ -68,7 +69,7 @@
                         quam?
                     </p>
                 </div>
-                <div class="small__block">
+                <div class="small--block">
                     <span class="dscript">Text-align: justify;</span>
                     <p class="blck2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
                         consectetur
@@ -80,7 +81,7 @@
                         quam?
                     </p>
                 </div>
-                <div class="small__block">
+                <div class="small--block">
                     <span class="dscript">Text-align: right;</span>
                     <p class="blck3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
                         consectetur
@@ -93,7 +94,7 @@
                     </p>
                 </div>
             </div>
-            <div class="big">
+            <div class="big--block">
                 <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum, dolor sit amet consectetur adipisicing
                     elit. Tempora, culpa sint. Eum consectetur
                     molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
@@ -198,67 +199,72 @@
             <h2 id="lists">Lists</h2>
             <div class="box">
                 <div>
-                <p class="describtion">We use the <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> tags to create lists</p>
-            <ul class="list">
-                <li>Fender Guitars</li>
-                <li>Lowden guitars</li>
-                <ul>
-                    <li>The Original Series</li>
-                    <li>The 35 Series</li>
-                    <li>The 50 Series</li>
-                    <li>Sheeran by Lowden</li>
-                    <ul>
-                        <li>W Series</li>
+                    <p class="describtion">We use the <b>&lt;ul&gt;</b> and <b>&lt;li&gt;</b> tags to create lists</p>
+                    <ul class="list">
+                        <li>Fender Guitars</li>
+                        <li>Lowden guitars</li>
                         <ul>
-                            <li>The WO1</li>
-                            <li>The WO2</li>
-                            <li>The WO3</li>
-                            <li>The WO4</li>
+                            <li>The Original Series</li>
+                            <li>The 35 Series</li>
+                            <li>The 50 Series</li>
+                            <li>Sheeran by Lowden</li>
+                            <ul>
+                                <li>W Series</li>
+                                <ul>
+                                    <li>The WO1</li>
+                                    <li>The WO2</li>
+                                    <li>The WO3</li>
+                                    <li>The WO4</li>
+                                </ul>
+                                <li>S Series</li>
+                                <ul>
+                                    <li>The SO1</li>
+                                    <li>The SO2</li>
+                                    <li>The SO3</li>
+                                    <li>The SO4</li>
+                                </ul>
+                            </ul>
                         </ul>
-                        <li>S Series</li>
-                        <ul>
-                            <li>The SO1</li>
-                            <li>The SO2</li>
-                            <li>The SO3</li>
-                            <li>The SO4</li>
-                        </ul>
+                        <li>Gison guitars</li>
+                        <li>Epiphone</li>
+                        <li>Walden</li>
+                        <li>Cort</li>
                     </ul>
-                </ul>
-                <li>Gison guitars</li>
-                <li>Epiphone</li>
-                <li>Walden</li>
-                <li>Cort</li>
-            </ul>
-            </div>
-            <div>
-                <p class="describtion">This is the same but with numbers. We use <b>&lt;ol&gt;</b> and <b>&lt;li&gt;</b></p>
-            <ol class="list">
-                <li>The Original Series</li>
-                <li>The 35 Series</li>
-                <li>The 50 Series</li>
-                <li>Sheeran by Lowden</li>
-                <ol>
-                    <li>W Series</li>
-                    <ol>
-                        <li>The WO1</li>
-                        <li>The WO2</li>
-                        <li>The WO3</li>
-                        <li>The WO4</li>
+                </div>
+                <div>
+                    <p class="describtion">This is the same but with numbers. We use <b>&lt;ol&gt;</b> and
+                        <b>&lt;li&gt;</b></p>
+                    <ol class="list">
+                        <li>Fender Guitars</li>
+                        <li>Lowden guitars</li>
+                        <ol>
+                            <li>The Original Series</li>
+                            <li>The 35 Series</li>
+                            <li>The 50 Series</li>
+                            <li>Sheeran by Lowden</li>
+                            <ol>
+                                <li>W Series</li>
+                                <ol>
+                                    <li>The WO1</li>
+                                    <li>The WO2</li>
+                                    <li>The WO3</li>
+                                    <li>The WO4</li>
+                                </ol>
+                                <li>S Series</li>
+                                <ol>
+                                    <li>The SO1</li>
+                                    <li>The SO2</li>
+                                    <li>The SO3</li>
+                                    <li>The SO4</li>
+                                </ol>
+                            </ol>
+                        </ol>
+                        <li>Gison guitars</li>
+                        <li>Epiphone</li>
+                        <li>Walden</li>
+                        <li>Cort</li>
                     </ol>
-                    <li>S Series</li>
-                    <ol>
-                        <li>The SO1</li>
-                        <li>The SO2</li>
-                        <li>The SO3</li>
-                        <li>The SO4</li>
-                    </ol>
-                </ol>
-                <li>Gibson guitars</li>
-                <li>Epiphone</li>
-                <li>Walden</li>
-                <li>Cort</li>
-            </ol>
-            </div>
+                </div>
             </div>
         </section>
         <section class="container">
@@ -271,7 +277,8 @@
             </figure>
             <figure class="quote">
                 <blockquote>
-                    <p>"I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character."</p>
+                    <p>"I have a dream that my four little children will one day live in a nation where they will not be
+                        judged by the color of their skin but by the content of their character."</p>
                     <figcaption>-Martin Luther King</figcaption>
                 </blockquote>
             </figure>
