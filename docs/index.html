@@ -6,110 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML&CSS Gallery</title>
-    <link rel="stylesheet" href="./css/components.css">
-    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header class="mainpage_header">
-        <nav class="navbar">
-            <h1>Simple HTML/CSS Library</h1>
-            <ul class="navbar--menu">
-                <li><a class="navbar--btn" href="#headings">Headings</a></li>
-                <li><a class="navbar--btn" href="#texttypes">Text</a></li>
-                <li><a class="navbar--btn" href="#buttons">Buttons</a></li>
-                <li><a class="navbar--btn" href="#gallery">Gallery</a></li>
-                <li><a class="navbar--btn" href="#lists">Lists</a></li>
-                <li><a class="navbar--btn" href="#blockq">Blockquotes</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+            <h1>Simple HTML/CSS library</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#headings">Headings</a></li>
+            <li><a href="#texttypes">Text</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#blockq">Blockquotes</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+    </nav>
     <main>
         <div class="bg"></div>
         <section class="container">
             <h2 id="headings">Types of Headings:</h2>
             <div class="describ">
-                <p class="describtion">Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b>
+                <p>Here you can see types of headings. It begins with <b><code>&lt;h1&gt;</code></b>
                     and ends with
-                    <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings:
+                    <b><code>&lt;h6&gt;</code></b>. Here you can see sizes of headings. Begins with sizes for mobile and ends with sizes for desktop:
                 </p>
                 <ul class="list">
-                    <li><code>&lt;h1&gt;</code> - 40px</li>
-                    <li><code>&lt;h2&gt;</code> - 32px</li>
-                    <li><code>&lt;h3&gt;</code> - 25px</li>
-                    <li><code>&lt;h4&gt;</code> - 18px</li>
-                    <li><code>&lt;h5&gt;</code> - 16px</li>
-                    <li><code>&lt;h6&gt;</code> - 12px</li>
+                    <li><code>&lt;h1&gt;</code> - 20px, 25px, 30px, 40px</li>
+                    <li><code>&lt;h2&gt;</code> - 16px, 20px, 25px, 32px</li>
+                    <li><code>&lt;h3&gt;</code> - 12px, 16px, 20px, 25px</li>
+                    <li><code>&lt;h4&gt;</code> - 10px, 14px, 18px, 18px</li>
+                    <li><code>&lt;h5&gt;</code> - 8px, 12px, 16px, 16px</li>
+                    <li><code>&lt;h6&gt;</code> - 6px, 10px, 12px, 14px</li>
                 </ul>
             </div>
             <div class="headings">
-                <h1 class="modifer">Heading <code>&lt;h1&gt;</code></h1>
-                <h2 class="modifer">Heading <code>&lt;h2&gt;</code></h2>
-                <h3 class="modifer">Heading <code>&lt;h3&gt;</code></h3>
-                <h4 class="modifer">Heading <code>&lt;h4&gt;</code></h4>
-                <h5 class="modifer">Heading <code>&lt;h5&gt;</code></h5>
-                <h6 class="modifer">Heading <code>&lt;h6&gt;</code></h6>
+                <h1>Heading <code>&lt;h1&gt;</code></h1>
+                <h2>Heading <code>&lt;h2&gt;</code></h2>
+                <h3>Heading <code>&lt;h3&gt;</code></h3>
+                <h4>Heading <code>&lt;h4&gt;</code></h4>
+                <h5>Heading <code>&lt;h5&gt;</code></h5>
+                <h6>Heading <code>&lt;h6&gt;</code></h6>
             </div>
         </section>
         <section class="container">
             <h2 id="texttypes">Text types</h2>
             <h3>Block of text</h3>
             <div class="small">
-                <div class="small--block">
-                    <span class="dscript">Text-align: left;</span>
-                    <p class="blck1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
-                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
+                <div class="small__block">
+                    <span class="small__block__describ">Text-align: left;</span>
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque sit,
+                        blanditiis, voluptates vitae ab minus consequuntur velit ullam perferendis ipsam corrupti! Eos
+                        eveniet fugit fuga ea sit, nam a?
                     </p>
                 </div>
-                <div class="small--block">
-                    <span class="dscript">Text-align: justify;</span>
-                    <p class="blck2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
-                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
+                <div class="small__block">
+                    <span class="small__block__describ">Text-align: justify;</span>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque sit,
+                        blanditiis, voluptates vitae ab minus consequuntur velit ullam perferendis ipsam corrupti! Eos
+                        eveniet fugit fuga ea sit, nam a?
                     </p>
                 </div>
-                <div class="small--block">
-                    <span class="dscript">Text-align: right;</span>
-                    <p class="blck3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
-                        Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                        consectetur
-                        molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat
-                        quam?
+                <div class="small__block">
+                    <span class="small__block__describ">Text-align: right;</span>
+                    <p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque sit,
+                        blanditiis, voluptates vitae ab minus consequuntur velit ullam perferendis ipsam corrupti! Eos
+                        eveniet fugit fuga ea sit, nam a?
                     </p>
                 </div>
             </div>
-            <div class="big--block">
-                <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum, dolor sit amet consectetur adipisicing
-                    elit. Tempora, culpa sint. Eum consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                    consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                    consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                    consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
-                    Saepe, quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, culpa sint. Eum
-                    consectetur
-                    molestias minima quia. Ad id reprehenderit non facere laborum unde iure dolore aut, quaerat quam?
+            <div class="big">
+                <p> <b>This is how normal paragraph looks like.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque sit,
+                    blanditiis, voluptates vitae ab minus consequuntur velit ullam perferendis ipsam corrupti! Eos
+                    eveniet fugit fuga ea sit, nam a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat atque sit,
+                    blanditiis, voluptates vitae ab minus consequuntur velit ullam perferendis ipsam corrupti! Eos
+                    eveniet fugit fuga ea sit, nam a?
                 </p>
             </div>
             <h3>Highlighted words in text</h3>
@@ -130,7 +111,8 @@
         </section>
         <section class="container">
             <h2 id="buttons">Buttons</h2>
-            <div class="con">
+            <p>Buttons are created thanks to the <b>&lt;button&gt;</b> tag</p>
+            <div class="flex">
                 <button class="btn btn--square">
                     Button
                 </button>
@@ -146,7 +128,8 @@
             </div>
         </section>
         <section class="container">
-            <h2 id="gallery">Gallery</h2>
+            <h2 id="gallery">Pictures</h2>
+            <h3>Flex Gallery with hover effects</h3>
             <div>
                 <p class="describtion">This is type of Image gallery with captions on pictures. Using flex.</p>
             </div>
@@ -154,44 +137,45 @@
                 <figure>
                     <a href="">
                         <img src="./img/onas.jpg" alt="člověk s kytarou">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
                         <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
                         <img src="./img/onas.jpg" alt="člověk s kytarou">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
                         <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
                         <img src="./img/onas.jpg" alt="člověk s kytarou">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
                 <figure>
                     <a href="">
                         <img src="./img/vybaveni.jpg" alt="hudební mixážní pult">
-                        <div class="caption">Caption</div>
+                        <div class="gallery__caption">Caption</div>
                     </a>
                 </figure>
             </div>
+            <h3>Single picture</h3>
             <figure class="single">
                 <a href="">
                     <img src="./img/code-g8d28e2f1e_1920.jpg" alt="kalendář">
-                    <div class="caption">Single Image</div>
+                    <div class="gallery__caption">Single Image</div>
                 </a>
             </figure>
         </section>
@@ -292,6 +276,7 @@
             </a>
         </div>
     </footer>
+    <script src="./app.js"></script>
 </body>
 
 </html>
